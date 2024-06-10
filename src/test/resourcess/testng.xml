@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cyient Automation Suite">
+	<listeners>
+		<listener class-name="cyient_Listeners.MyListeners"/>
+	</listeners>
+  <test name="Cyient Test Cases">
+    <classes>
+      <class name="cyient_TestCases.RegisterTest"/>
+      <class name="cyient_TestCases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
